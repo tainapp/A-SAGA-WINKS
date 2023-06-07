@@ -1,0 +1,109 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    
+    background: linear-gradient(0deg, #000000 1%, #a200ff 99%);
+       
+}
+
+.container {
+    background-size: contain;  
+    padding: 0px;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto auto auto 250px;
+    grid-auto-rows: auto auto auto auto auto;
+    grid-template-areas: 
+        "h h h h"
+        "c c c s"
+        "c c c s"
+        "c c c s"
+        "f f f f"
+     ;
+     
+}
+
+.container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;       
+    height: 100%;
+}
+
+.header {
+    background: url(cabeçalho.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    grid-area: h;
+    display: flex;
+  
+     
+} 
+.body{
+    display: fle
+}
+
+.fran{
+ 
+    color: rgb(224, 224, 224);
+    font-size: 70px;
+    margin: auto;
+    font-family: cursive;
+ }
+
+.sidebar {
+    background: linear-gradient(180deg, #000000 1%, #a200ff 99%);
+    grid-area: s;
+    list-style: none;    
+}
+
+.contest {
+    grid-area: c;
+    background: url(fundo1.png);
+    background-size: 96%; 
+    background-position: center;
+
+}
+.footer {
+    grid-area: f;
+    border: 0px solid rgb(191, 204, 9);
+    gap: 2px;
+}
+
+
+li {
+    list-style: none; 
+    margin: 10px;    
+    
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(252, 252, 252); 
+    background: rgb(255, 0, 89);
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius: 50px;
+    -moz-border-radius:500px;
+    border-radius:50px;
+       
+}
+li a:hover {
+    background: #f3000031;
+    color: #ffffff; 
+    border-color: #fd0000;
+        
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.slide{
+    border: 0px solid rgb(255, 255, 255);
+    gap: 2px;
+}
+ 
