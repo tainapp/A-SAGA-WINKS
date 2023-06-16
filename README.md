@@ -2,4 +2,4 @@
 
 https://github.com/VICTORheitorALBUQUERQUE !
 
-[image](https://github.com/cidaci2000/A-SAGA-WINKS/blob/main/TELA.png)
+[image](https://github.com/tainapp/A-SAGA-WINKS/blob/main/TELA.png)
